@@ -47,8 +47,8 @@ public class PlayerController : MonoBehaviour
         zoomAction = playerInput.actions["Zoom"];
         jumpAction = playerInput.actions["Jump"];
 
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
 
         prevMoveInput = Vector2.zero;
         storedDir = Vector3.zero;

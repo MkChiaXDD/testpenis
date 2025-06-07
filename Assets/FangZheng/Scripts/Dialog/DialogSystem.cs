@@ -35,12 +35,15 @@ public class DialogSystem : MonoBehaviour
     [SerializeField] public float Cooldown_Duration = 0.2f;
 
     [SerializeField] public float Cooldown = 0;
+
+
     void Start()
     {
         _Text_Array = new List<char>();
         _Current_Char = new List<char>();
         Activate(_npc);
         Cooldown = Cooldown_Duration;
+        
     }
 
     private void Update()
